@@ -1,6 +1,7 @@
 #!/usr/bin/env fish
 python3 -m doctest -v (basename (status -f))
 exit
+
 """
 >>> rotate_2d_matrix = __import__('0-rotate_2d_matrix').rotate_2d_matrix
 >>> test_cases = [
